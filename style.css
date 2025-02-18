@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 9fr 1fr;
+}
+
+.logonav {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: antiquewhite;
+}
+
+.gridbox {
+    grid-column: 1/4;
+    grid-row: 2/4;
+    background-color: blue;
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: blueviolet;
+}
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: blanchedalmond;
+}
+
+.box3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: beige;
+}
+
+.footer {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: blue;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.child {
+    flex: 40%;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 30px
+}
